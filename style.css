@@ -1,0 +1,95 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.head {
+    background-color: rgb(255, 255, 255);
+    height: 130px;
+    width: 100%;
+    padding: 45px;
+    display: flex;
+    border-bottom: solid #4b230f 5px;
+}
+
+.corpo {
+    background-color: #FFD43E;
+    height: 82.5vb;
+    width: 100%;
+}
+
+.pesquisa {
+    display: flex;
+    align-items: center;
+    margin-left: 50%;
+}
+
+.pesquisa input {
+    border-radius: 15px;
+    width: 200px;
+    background-color: #C8C8C8;
+    padding: 5px;
+}
+
+#lupa {
+    background: url("img/procurar.png") no-repeat right / 1.3em;
+    padding-left: 1.3em;
+    background-color: #C8C8C8;
+
+}
+
+.brasil,
+.carrinho,
+.perfil {
+    display: flex;
+    margin-left: 40px;
+    align-items: center;
+}
+
+.mm {
+    position: absolute;
+    right: 43%;
+    top: 3%;
+}
+
+.barra-esquerda {
+    position: absolute;
+    bottom: 0%;
+    left: 0%;
+}
+
+.barra-direita {
+    position: absolute;
+    bottom: 0%;
+    right: 0%;
+}
+
+.slide1{
+    width: 800px;
+    border-radius: 150px;
+    background-color: #ffeba4;
+    padding: 50px;
+}
+
+.slide2{
+    width: 300px;
+    border-radius: 150px;
+    background-color: #ffeba4;
+    padding: 50px;
+}
+
+.slide3{
+    width: 550px;
+    border-radius: 150px;
+    background-color: #ffeba4;
+    padding: 50px;
+}
+
+.carousel{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position: absolute;
+    top: 130px;
+    margin-left: 50%;
+}
